@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script src="scripts/script.js"></script>
+</head>
+<body>
+    
+    <div id="alertBox" class="alerta"><p>Esto es una alerta</p></div>
+    
+    <div class="fondoBlanco">
+        
+        <div class="contenedor">
+            <h2>REGISTRO</h2>
+            <form action="" id="formRegistro">
+                <div class="avatar">
+                    <img src="img/avatar_icon.png" alt="avatar">
+                </div>
+                <input type="text" name="nombre" id="nombre" class="input" placeholder="Nombre" required>
+                <input type="text" name="apellidos" id="apellidos" class="input" placeholder="Apellidos" required>
+                <input type="email" name="email" class="input" placeholder="Email" required>
+                <input type="password" name="pass" id="pass" class="input" placeholder="Contraseña" required>
+                <div class="cajaCheckbox">
+                    <input type="checkbox" name="aceptoPP" id="aceptoPP" required>
+                    <label for="aceptoPP">Acepto política de privacidad</label>
+                </div>
+                <button type="submit"  class="">Registrar</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
